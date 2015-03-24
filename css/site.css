@@ -1,0 +1,177 @@
+html,
+body {
+
+	height: 100%;
+	}
+
+body {
+	font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-weight: 100; 
+	background: url(../images/menu_background.jpg) center top no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.header {
+	position: relative;
+	text-align: center;
+	top: -100px;
+	
+	
+}
+
+.b-logo {
+	position: relative;
+	padding: 200px 0px 0px 0px;
+	
+	text-align: center;
+	
+}
+
+.b-title {
+	text-align: center;
+	color: white;
+}
+
+.bottom-address {
+	font-size: 12pt;
+	color: white;
+	font-weight: 100;
+	position: relative;
+	bottom: 30px;
+}
+
+.bottom-address p {
+	display: inline;
+	padding: 20px;
+	margin: 0px;
+	
+}
+
+.dot {
+	position: absolute;
+	left: 313px;
+	bottom: 67px;
+}
+
+.hours {
+	position: relative;
+	left: 100px;
+	
+	
+}
+
+h1 {
+	font-weight: 100;
+	font-size: 75pt;
+}
+
+h2 {
+	font-weight: 100;
+	font-size: 35pt;
+}
+
+h3 {
+	font-weight: 100;
+	font-size: 20pt;
+}
+
+h4 {
+	font-weight: 100;
+	font-size: 15pt;
+}
+
+h5 {
+	font-weight: 100;
+}
+
+h6 {
+	font-weight: 100;
+}
+
+.nav {
+	list-style-type: none;
+	font-style; none;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	color: white;
+}
+
+.nav li {
+	display:inline;
+	padding:10px;
+	margin:10px;
+	
+}
+
+.nav a:link,
+.nav a:visited {
+	color: white;
+	text-decoration: none;
+}
+.info {
+	list-style-type: none;
+	background-color: #e6e0da;
+	padding: 50px;
+	
+}
+
+.cater-reservation {
+	text-align: center;
+	line-height: 200%;
+	display: block;
+	position: relative;
+	float: right;
+	bottom: 350px;
+	right: 50px;
+	width: 500px
+	
+	
+	
+}
+
+.cater-reservation p {
+	font-weight: 100;
+	text-align: center;
+	font-size: 15pt;
+}
+
+.menu {
+	background-color: #ebebeb;
+	padding: 100px;
+	
+}
+
+.section-title {
+	position: relative;
+	font-weight: 100;
+	text-align: center;
+	top: -50px;
+	
+}
+
+.course-title em {
+	font-style: normal;
+	font-size: 30pt;
+}
+
+.menu-list {
+	list-style-type: none;
+	position: relative;
+	left: 100px;
+}
+
+.menu-list p {
+	font-weight: 100;
+}
+
+.maps {
+	color: white;
+	background-color: #383535;
+	padding: 100px;
+}
+cursor: crosshair;
+
