@@ -10,12 +10,14 @@ body {
 	background: url(../images/menu_background.jpg) center top no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+	
 }
 
 .header {
 	position: relative;
 	text-align: center;
 	top: -100px;
+	padding: 50px;
 	
 	
 }
@@ -39,27 +41,29 @@ body {
 	font-weight: 100;
 	position: relative;
 	bottom: 30px;
+	text-align: center;
 }
 
 .bottom-address p {
 	display: inline;
 	padding: 20px;
-	margin: 0px;
+	
 	
 }
 
-.dot {
-	position: absolute;
-	left: 313px;
-	bottom: 67px;
+.bottom-address .separator {
+	padding-left: 26px;
+	background: url('../images/frontpage_dot.png') left center no-repeat;
 }
 
 .hours {
-	position: relative;
-	left: 100px;
+	float: left;
+	width: 50%;
+	text-align: center;
 	
 	
 }
+
 
 h1 {
 	font-weight: 100;
@@ -92,13 +96,36 @@ h6 {
 .nav {
 	list-style-type: none;
 	font-style; none;
+	font-weight: 200;
 	margin: 0;
 	padding: 0;
 	position: fixed;
 	top: 10px;
 	right: 10px;
+<<<<<<< HEAD
+	
+=======
 	color: white;
+>>>>>>> origin/gh-pages
+	
 }
+
+.nav-home:hover{
+	opacity: .33;
+}
+
+.nav-info:hover{
+	opacity: .33;
+}
+
+.nav-menu:hover{
+	opacity: .33;
+}
+
+.nav-maps:hover{
+	opacity: .33;
+}
+
 
 .nav li {
 	display:inline;
@@ -109,13 +136,15 @@ h6 {
 
 .nav a:link,
 .nav a:visited {
-	color: white;
+	color: gray;
 	text-decoration: none;
 }
 .info {
 	list-style-type: none;
 	background-color: #e6e0da;
 	padding: 50px;
+	overflow: hidden;
+	
 	
 }
 
@@ -123,14 +152,15 @@ h6 {
 	text-align: center;
 	line-height: 200%;
 	display: block;
-	position: relative;
+	
 	float: right;
-	bottom: 350px;
-	right: 50px;
-	width: 500px
+	width: 50%;
 	
-	
-	
+}
+
+.cater-reservation h2{
+  line-height: 100%;
+  
 }
 
 .cater-reservation p {
@@ -141,7 +171,8 @@ h6 {
 
 .menu {
 	background-color: #ebebeb;
-	padding: 100px;
+	padding: 50px;
+	text-align: center;
 	
 }
 
@@ -161,7 +192,7 @@ h6 {
 .menu-list {
 	list-style-type: none;
 	position: relative;
-	left: 100px;
+	
 }
 
 .menu-list p {
@@ -171,7 +202,48 @@ h6 {
 .maps {
 	color: white;
 	background-color: #383535;
-	padding: 100px;
+	padding-top: 100px;
+<<<<<<< HEAD
 }
-cursor: crosshair;
 
+.map{
+	text-align: center;
+	padding-bottom: 100px;
+	
+}
+
+=======
+}
+
+.map{
+	text-align: center;
+	padding-bottom: 100px;
+	
+}
+
+>>>>>>> origin/gh-pages
+@media (max-width: 950px) {
+  
+	.nav {
+    	display: none;
+	}
+  
+  	.info {
+  		text-align: center;
+  	}
+  
+	.cater-reservation , 
+	.hours {
+		margin: auto;
+    	width: 250px;
+    	float: none;
+    	
+	}  
+}
+
+@media (max-width: 500px) {
+	
+	.bottom-address {
+		display: none;
+	}
+}
